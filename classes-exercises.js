@@ -91,7 +91,9 @@ set edad(nuevaEdad){
 }
 
 // 8. Modifica la clase con getters y setters para que use propiedades privadas
-personaGet = new GetPerson("Paula","Paulitti", 22)
+
+let personaGet = new GetPerson("Paula","Paulitti", 22)
+
 console.log(personaGet.nombre)
 console.log(personaGet.usuario)
 console.log(personaGet.edad)
